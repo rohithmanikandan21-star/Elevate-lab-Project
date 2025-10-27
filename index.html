@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method ="post">
+<label>Target URL (included http/https):</label><br>
+<input type="target" style="width:80%" placeholder="http://localhost:3000" required>
+<button type="submit">Start Scan</button>
+</form>
+<p>Scans run in background. use the auto-generated scan ID page to view results.</p>
+{% endblock %}
